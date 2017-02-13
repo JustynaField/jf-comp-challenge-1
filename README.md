@@ -4,3 +4,6 @@ The project focueses on practicing the following skills: flex-box, responsive la
 
 #### Original Comp:
 ![Original Comp](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
+
+#### My Version: 
+![My Version](images/desktop.png)
