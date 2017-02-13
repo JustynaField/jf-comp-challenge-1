@@ -7,3 +7,5 @@ The project focueses on practicing the following skills: flex-box, responsive la
 
 #### My Version: 
 ![My Version](images/desktop.png)
+![My Version](images/tablet.png)
+![My Version](images/phone.png)
