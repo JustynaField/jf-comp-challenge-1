@@ -96,7 +96,7 @@ button {
 }
 
 .article3 {
-    background-color: #996666;
+  background-color: #996666;
 }
 
 .article4 {
@@ -120,10 +120,13 @@ button {
 }
 
 .section2 {
+  background-image: url("images/profile-photo.jpg");
+  background-size: cover;
   flex-basis: 450px;
   height: 100vh;
   position: relative;
-  width: 30%;
+  repeat: no-repeat;
+  width: 40%;
 }
 
 img {
@@ -133,6 +136,7 @@ img {
   position: absolute;
   width: 100%;
   /*height:100vh;*/
+
 }
 
 .circle {
@@ -177,7 +181,7 @@ img {
 @media screen and (max-width: 950px) {
 
   body {
-      display: flex;
+    display: flex;
   }
 
   main {
@@ -186,7 +190,6 @@ img {
 
   .section1 {
     width: 0%;
-
   }
 
   article {
@@ -212,12 +215,11 @@ img {
 @media screen and (max-width: 720px) {
 
   main {
-    flex-direction: column;
+    flex-direction: column-reverse;;
     flex-wrap: nowrap;
   }
 
   .section1 {
-    min-height: 500px;
     width: 100%;
   }
 
@@ -226,18 +228,19 @@ img {
   }
 
   .article1 {
-    width: 100%
+    width: 100%;
   }
 
   .article2 {
     width: 100%;
-
   }
 
   .section2 {
-    display: none;
-    /*width: 100%;
-    min-height: 300px;*/
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
   }
 
 }
